@@ -8,19 +8,19 @@ import DataAreaContext from "../../utils/DataAreaContext.js";
 
 
 const DataArea = () => {
-  constructor() {
-    super();
-    this.state = {
-      employees: [{}],
-      sortedEmployees: [{}],
+const [developerState, setDeveloperState] = useState({
+      employees: [],
+      filteredEmployees: [],
       order: "descend",
       headings: [
-        { name: "Image", width: "10%" },
-        { name: "Name", width: "10%" },
-        { name: "Phone", width: "20%" },
-        { name: "Email", width: "20%" },
-        { name: "DOB", width: "10%" }
+        { name: "Image", width: "10%", order: "descend" },
+        { name: "Name", width: "10%", order: "descend" }, 
+        { name: "Phone", width: "20%", order: "descend" },
+        { name: "Email", width: "20%", order: "descend" },
+        { name: "DOB", width: "10%", order: "descend" }
       ],
+     
+     
       handleSort: heading => {
         if (this.state.order === "descend") {
           this.setState({

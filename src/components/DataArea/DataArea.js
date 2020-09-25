@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./DataArea.css";
 import DataTable from "./DataTable/DataTable.js";
-import "../Nav/Nav.js";
+import Nav from "../Nav/Nav.js";
 import API from "../../utils/API.js";
 import DataAreaContext from "../../utils/DataAreaContext.js";
 

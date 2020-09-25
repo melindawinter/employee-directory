@@ -8,6 +8,7 @@ const DataTable = () => {
   const context = useContext(DataAreaContext);
 
   return (
+    // Use bootstrap to format table
     <div className="datatable mt-5">
       <table
         id="table"

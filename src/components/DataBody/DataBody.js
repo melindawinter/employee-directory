@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "./DataBody.css";
-import DataAreaContext from "../utils/DataAreaContext";
+import DataAreaContext from "../../utils/DataAreaContext.js";
 
 const DataBody = () => {
   const context = useContext(DataAreaContext);
@@ -16,14 +16,12 @@ const DataBody = () => {
   }
 
   return (
-    //   Set up for table body
     <tbody>
-      {context.developerState.filteredUsers[0] !== undefined &&
-      context.developerState.filteredUsers[0].name !== undefined ? (
-        context.developerState.filteredUsers.map(
+      {context.developerState.filteredEmployees[0] !== undefined &&
+      context.developerState.filteredEmployees[0].name !== undefined ? (
+        context.developerState.filteredEmployees.map(
           ({ login, name, picture, phone, email, dob }) => {
             return (
-              //   Set up for table rows and data
               <tr key={login.uuid}>
                 <td data-th="Image" className="align-middle">
                   <img

@@ -4,6 +4,8 @@
 
 This is a React app that will allow an employer to easily find an employee's contact information. Columns can be sorted in ascending or descending order and a search field allows for quick searching. I set it up to populate using a random user api to show what it would look like for a larger company.
 
+![app](readme-images/app1.png)
+
 ## Table of Contents
 
 - [Installation](#installation)
@@ -21,7 +23,15 @@ If you would like to use part of this app, please clone my project. Make sure yo
 
 ## Usage
 
-To use the demo version of the app, simply click on a heading to reverse the ascending/descending filter function or begin typing a name in the search bar. To start a version you have cloned, use npm start to run the app on the local host and view it in the browser.
+To use the demo version of the app, simply click on a heading to reverse the ascending/descending filter function or begin typing a name in the search bar.
+
+![descending](readme-images/descending.png)
+
+![ascending](readme-images/ascending.png)
+
+![search](readme-images/search1.png)
+
+To start a version you have cloned, use npm start to run the app on the local host and view it in the browser.
 
 ## Technologies
 

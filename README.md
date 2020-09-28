@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a React app that will allow an employer to easily find an employee's contact information. Columns can be sorted in ascending or descending order and a search field allows for quick searching. I set it up to populate using a random user api to show what it would look like for a larger company.
+This is a React app that will allow an employer to easily find an employee's contact information. Columns can be sorted in ascending or descending order and a search field allows for quick searching. I set it up to populate using a random user api to show what it would look like for a larger company. See the demo version here: <https://melindawinter.github.io/employee-directory/>
 
 ![app](readme-images/app1.png)
 

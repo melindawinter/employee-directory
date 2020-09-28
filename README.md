@@ -1,10 +1,8 @@
-# Dream a Little Team for Me ![License](https://img.shields.io/badge/License-GPLv3-blue.svg)
+# Find that Employee ![License](https://img.shields.io/badge/License-GPLv3-blue.svg)
 
 ## Description
 
-This is a cli app that will allow an employer to easily create a webpage with a team's contact information. It is currently set up for teams with one manager and a variety of engineers and interns but could be easily adapted for other teams. Please click the link below for a demonstration.
-
-<https://drive.google.com/file/d/1cslRX4UwW5UMBMN3jik6dIJLvf5ED3MR/view?usp=sharing>
+This is a React app that will allow an employer to easily find an employee's contact information. Columns can be sorted in ascending or descending order and a search field allows for quick searching. I set it up to populate
 
 ## Table of Contents
 
@@ -19,7 +17,7 @@ This is a cli app that will allow an employer to easily create a webpage with a 
 
 ## Installation
 
-If you would like to use this generator, please clone my project. Make sure you have node.js installed on your computer. You can find the download here <https://nodejs.org/en/download/>.
+If you would like to use part of this app, please clone my project. Make sure you have node.js installed on your computer. You can find the download here <https://nodejs.org/en/download/>.
 
 ## Usage
 

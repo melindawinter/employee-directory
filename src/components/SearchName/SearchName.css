@@ -1,0 +1,8 @@
+.input-group-text {
+  background-color: #f392bd;
+  color: white;
+}
+
+.searchbox input {
+  border: solid #f392bd;
+}

@@ -4,11 +4,8 @@ import "./Header.css";
 function Header() {
   return (
     <div className="header">
-      <h1>Employee Directory</h1>
-      <h3>
-        Click a heading for ascending or descending order or search for an
-        employee
-      </h3>
+      <h1>WinterMute Incorporated Employee Directory</h1>
+      <h4>Click a heading to change the order or use the box to search</h4>
     </div>
   );
 }

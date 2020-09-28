@@ -1,68 +1,62 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Dream a Little Team for Me ![License](https://img.shields.io/badge/License-GPLv3-blue.svg)
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+This is a cli app that will allow an employer to easily create a webpage with a team's contact information. It is currently set up for teams with one manager and a variety of engineers and interns but could be easily adapted for other teams. Please click the link below for a demonstration.
 
-### `npm start`
+<https://drive.google.com/file/d/1cslRX4UwW5UMBMN3jik6dIJLvf5ED3MR/view?usp=sharing>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Table of Contents
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies](#technologies)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+- [Credits](#credits)
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+If you would like to use this generator, please clone my project. Make sure you have node.js installed on your computer. You can find the download here <https://nodejs.org/en/download/>.
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Once you have a cloned version, open it up in VS Code or another editor. Open up your terminal and make sure you are in the correct directory folder. Type node app.js into the command line and press Enter.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+![Command line](images/cli-1.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+A formatted webpage will be generated.
 
-### `npm run eject`
+![HTML](images/html-1.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![Responsive HTML](images/html-responsive.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Technologies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Node, Inquirer, Jest, HTML, JavaScript
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## License
 
-## Learn More
+GNU General Public License v3.0
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The GNU License allows the software to be modified and distributed by other users. It does not impose any restrictions on the use of the software but requires that it remain open source.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributing
 
-### Code Splitting
+Please contribute to this project if you feel that you can make the code more efficient or if you'd like to add more questions for the user. Create your own branch from the Master and submit a pull request. I ask that you follow the Contributor Covenant code of conduct: <https://www.contributor-covenant.org/version/2/0/code_of_conduct/code_of_conduct.md> ![Contributor Covenant Badge](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## Tests
 
-### Analyzing the Bundle Size
+To run the tests for the project, type npm run test into the command line.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## Questions
 
-### Making a Progressive Web App
+- [Github Profile](https://github.com/melindawinter)
+- melindawinter42@gmail.com
+- You can easily reach me by email or you can find me on LinkedIn here <http://www.linkedin.com/in/melinda-winter-34a25689>.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## Credits
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+A big thank you to my team members Cyrus Jose and Kate An for helping me to get this working! Thank you to Adam Abundis for all the resources and the extra class tutoring session. Thanks to Thor Nolan, my very awesome tutor who helped me get started on this project.

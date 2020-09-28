@@ -13,6 +13,7 @@ This is a React app that will allow an employer to easily find an employee's con
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
+- [Credits](#credits)
 
 ## Installation
 
@@ -45,3 +46,7 @@ To run the tests for the project, type npm run test into the command line.
 - [Github Profile](https://github.com/melindawinter)
 - melindawinter42@gmail.com
 - You can easily reach me by email or you can find me on LinkedIn here <http://www.linkedin.com/in/melinda-winter-34a25689>.
+
+## Credits
+
+I used a random user generator app found here: <https://randomuser.me/>. Thank you to my tutor Thor Nolan for helping me get the project set up and on its way.

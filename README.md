@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a React app that will allow an employer to easily find an employee's contact information. Columns can be sorted in ascending or descending order and a search field allows for quick searching. I set it up to populate
+This is a React app that will allow an employer to easily find an employee's contact information. Columns can be sorted in ascending or descending order and a search field allows for quick searching. I set it up to populate using a random user api to show what it would look like for a larger company.
 
 ## Table of Contents
 
@@ -13,7 +13,6 @@ This is a React app that will allow an employer to easily find an employee's con
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
-- [Credits](#credits)
 
 ## Installation
 
@@ -21,19 +20,11 @@ If you would like to use part of this app, please clone my project. Make sure yo
 
 ## Usage
 
-Once you have a cloned version, open it up in VS Code or another editor. Open up your terminal and make sure you are in the correct directory folder. Type node app.js into the command line and press Enter.
-
-![Command line](images/cli-1.png)
-
-A formatted webpage will be generated.
-
-![HTML](images/html-1.png)
-
-![Responsive HTML](images/html-responsive.png)
+To use the demo version of the app, simply click on a heading to reverse the ascending/descending filter function or begin typing a name in the search bar. To start a version you have cloned, use npm start to run the app on the local host and view it in the browser.
 
 ## Technologies
 
-Node, Inquirer, Jest, HTML, JavaScript
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## License
 
@@ -43,7 +34,7 @@ The GNU License allows the software to be modified and distributed by other user
 
 ## Contributing
 
-Please contribute to this project if you feel that you can make the code more efficient or if you'd like to add more questions for the user. Create your own branch from the Master and submit a pull request. I ask that you follow the Contributor Covenant code of conduct: <https://www.contributor-covenant.org/version/2/0/code_of_conduct/code_of_conduct.md> ![Contributor Covenant Badge](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)
+Please contribute to this project if you feel that you can make the code more efficient. Create your own branch and submit a pull request. I ask that you follow the Contributor Covenant code of conduct: <https://www.contributor-covenant.org/version/2/0/code_of_conduct/code_of_conduct.md> ![Contributor Covenant Badge](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)
 
 ## Tests
 
@@ -54,7 +45,3 @@ To run the tests for the project, type npm run test into the command line.
 - [Github Profile](https://github.com/melindawinter)
 - melindawinter42@gmail.com
 - You can easily reach me by email or you can find me on LinkedIn here <http://www.linkedin.com/in/melinda-winter-34a25689>.
-
-## Credits
-
-A big thank you to my team members Cyrus Jose and Kate An for helping me to get this working! Thank you to Adam Abundis for all the resources and the extra class tutoring session. Thanks to Thor Nolan, my very awesome tutor who helped me get started on this project.
